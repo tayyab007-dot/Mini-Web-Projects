@@ -1,113 +1,58 @@
-# 🪨📄✂️ Stone Paper Scissors Game
+# ✊ Stone Paper Scissors 🤚
 
-A simple and interactive **Stone (Rock) – Paper – Scissors** game built using **HTML, CSS, and JavaScript**. This project demonstrates core JavaScript logic, DOM manipulation, and basic UI design while keeping the gameplay intuitive and fun.
-
----
-
-## 📌 Project Overview
-
-The Stone Paper Scissors Game allows a user to play against the computer. The computer randomly selects its move, and the winner is decided based on standard game rules. The game provides instant feedback, score tracking, and a clean user interface.
-
-This project is ideal for beginners who want to strengthen their fundamentals in **JavaScript logic**, **event handling**, and **frontend structure**.
+A fun, interactive version of the classic Rock Paper Scissors game. Challenge the computer and see who can reach the highest score!
 
 ---
 
-## 🎮 Game Rules
+## 📸 Game Preview
 
-* **Stone beats Scissors**
-* **Scissors beats Paper**
-* **Paper beats Stone**
-* If both the player and computer choose the same option, the result is a **Draw**
-
----
-
-## 🚀 Features
-
-* Interactive UI with clickable buttons
-* Random move generation for the computer
-* Real-time result display (Win / Lose / Draw)
-* Score tracking for player and computer
-* Responsive and beginner-friendly design
-* Clean and readable JavaScript logic
+<p align="center">
+  <img src="https://github.com/tayyab007-dot/Mini-Web-Projects/blob/main/STONE%20PAPER%20SCSSOR%20GAME/screenshots/stone-paper-scissors.png?raw=true" alt="Stone Paper Scissors Gameplay" width="700">
+</p>
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-* **HTML5** – Structure of the game
-* **CSS3** – Styling and layout
-* **JavaScript (ES6)** – Game logic and DOM manipulation
-
----
-
-## 📂 Project Structure
-
-```
-stone-paper-scissors/
-│
-├── index.html      # Main HTML file
-├── style.css       # Styling file
-├── app.js          # JavaScript game logic
-└── README.md       # Project documentation
-```
+* **Interactive Gameplay:** Click on your choice (Stone, Paper, or Scissors) and see the result instantly.
+* **Smart Computer:** The computer makes a random choice every round using JavaScript math logic.
+* **Live Score Tracking:** Keep track of your wins and the computer's wins throughout the session.
+* **Visual Feedback:** Dynamic messages tell you if you won, lost, or tied.
+* **Responsive Design:** Styled with CSS to look great on any screen size.
 
 ---
 
-## 🖥️ How to Run the Project
+## 🛠️ Tech Stack
 
-1. Download or clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   ```
-2. Open the project folder
-3. Open `index.html` in any modern web browser
-4. Start playing the game 🎉
+* **HTML5:** For the game structure and buttons.
+* **CSS3 (SCSS):** For modern styling and layout.
+* **JavaScript (ES6):** To handle game logic, event listeners, and score updates.
 
 ---
 
-## 📸 Screenshots
+## 🕹️ How to Play
 
-> Add your project screenshots here
-
-```
-![Stone Paper Scissors Game Screenshot](https://raw.githubusercontent.com/tayyab007-dot/Mini-Web-Projects/main/STONE%20PAPER%20SCSSOR%20GAME/screenshots/stone-paper-scissors.png)
-```
-
-You can create a `screenshots` folder and place your images inside it.
-
----
-
-## 🧠 Learning Outcomes
-
-* Understanding conditional logic in JavaScript
-* Using random number generation
-* DOM manipulation and event listeners
-* Structuring a small frontend project
-* Writing clean and readable code
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/tayyab007-dot/Mini-Web-Projects.git](https://github.com/tayyab007-dot/Mini-Web-Projects.git)
+    ```
+2.  **Navigate to the Folder:**
+    ```bash
+    cd "STONE PAPER SCSSOR GAME"
+    ```
+3.  **Launch the Game:**
+    Open `index.html` in your favorite web browser.
 
 ---
 
-## 🔮 Future Enhancements
+## 🧠 Game Logic
 
-* Add sound effects
-* Add animations for winning and losing
-* Mobile-first UI improvements
-* Add difficulty levels
-* Multiplayer mode
+The winner is determined by the classic rules:
+* **Stone** beats **Scissors**
+* **Paper** beats **Stone**
+* **Scissors** beats **Paper**
 
----
-
-## 👨‍💻 Author
-
-**Muhammad Tayyab**
-BS Computer Science
-Core Stack: Laravel, MERN, Full-Stack Web Development
-
----
-
-## 📄 License
-
-This project is open-source and available for learning and educational purposes.
-
-
+The computer's choice is generated using:
+```javascript
+const choices = ['stone', 'paper', 'scissors'];
+const computerChoice = choices[Math.floor(Math.random() * 3)];
