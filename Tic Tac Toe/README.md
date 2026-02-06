@@ -1,67 +1,59 @@
-# 🕹️ Toe Tic Tac
+# ❌ Tic Tac Toe ⭕
 
-A minimalist, responsive, and interactive **Tic-Tac-Toe** game built with the "Holy Trinity" of web development: HTML5, CSS3, and Vanilla JavaScript. 
-
----
-
-## 📖 Overview
-
-**Toe Tic Tac** is a lightweight web application that brings the classic paper-and-pencil game to the browser. This project focuses on clean UI, smooth state management, and mobile-first responsiveness.
-
-### [Click Here for Live Demo](https://your-live-link-here.com)
+A clean, interactive, and responsive **Tic Tac Toe** game built with vanilla JavaScript. Challenge a friend and see who can get three in a row first!
 
 ---
 
-## 📸 Screenshots
+## 📸 Game Preview
 
-| Game Board | Winner Announcement |
+| Gameplay Interface | Winner Announcement |
 | :---: | :---: |
-| ![Main Game UI](https://via.placeholder.com/400x300?text=Game+Board+Screenshot) | ![Win Screen](https://via.placeholder.com/400x300?text=Winner+UI+Screenshot) |
-| *Desktop Preview* | *Mobile Preview* |
-
-> **Tip:** Replace the placeholder URLs above with your actual image paths (e.g., `./screenshots/gameplay.png`) once you upload them to your repo.
+| ![Game Board](https://github.com/tayyab007-dot/Mini-Web-Projects/blob/main/Tic%20Tac%20Toe/screenshots/toe-tic-tac.png?raw=true) | ![Winner Screen](https://github.com/tayyab007-dot/Mini-Web-Projects/blob/main/Tic%20Tac%20Toe/screenshots/winner.png?raw=true) |
 
 ---
 
 ## ✨ Features
 
-* **Responsive Design:** Playable on everything from a giant monitor to a tiny smartphone.
-* **Real-time Win Logic:** Instant detection of horizontal, vertical, and diagonal wins.
-* **Draw Detection:** Automatically recognizes when no moves are left.
-* **Scoreboard:** Tracks wins for Player X and Player O during the session.
-* **Restart Function:** Quick-reset button to clear the board without refreshing.
+* **Win Detection:** Automatically identifies and announces the winner (X or O).
+* **Draw Logic:** Recognizes when the board is full and no one has won.
+* **Reset Functionality:** Quickly clear the board to start a new match.
+* **Interactive UI:** Smooth hover effects and clear visual feedback for player turns.
+* **Responsive Layout:** Playable on mobile, tablet, and desktop screens.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-* **HTML5:** Structure and Semantic Markup.
-* **CSS3:** Flexbox/Grid for layout and custom animations.
-* **JavaScript (ES6):** Game logic, DOM manipulation, and event handling.
+* **HTML5:** Structured the 3x3 grid.
+* **CSS3:** Styled with a modern look and feel.
+* **JavaScript (ES6):** Developed the winning patterns logic and game state management.
 
 ---
 
-## 🚀 Installation & Setup
+## 🕹️ How to Play
 
-1.  **Clone the repository:**
+1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/toe-tic-tac.git](https://github.com/your-username/toe-tic-tac.git)
+    git clone [https://github.com/tayyab007-dot/Mini-Web-Projects.git](https://github.com/tayyab007-dot/Mini-Web-Projects.git)
     ```
-2.  **Navigate to the directory:**
+2.  **Navigate to the Folder:**
     ```bash
-    cd toe-tic-tac
+    cd "Tic Tac Toe"
     ```
-3.  **Launch the game:**
-    Simply open `index.html` in your browser or use a "Live Server" extension in VS Code.
+3.  **Run the Game:**
+    Open `index.html` in your browser.
+4.  **The Goal:**
+    Be the first to get three of your marks in a horizontal, vertical, or diagonal row!
 
 ---
 
-## 📂 Project Structure
+## 🧠 Behind the Logic
 
-```text
-.
-├── index.html        # Game structure
-├── style.css         # Styling and animations
-├── script.js        # Game engine & logic
-├── assets/           # Images, icons, and sounds
-└── README.md         # You are here!
+The game checks for a winner after every move by comparing the current board state against an array of **winning combinations**:
+
+```javascript
+const winPatterns = [
+    [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+    [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+    [0, 4, 8], [2, 4, 6]             // Diagonals
+];
