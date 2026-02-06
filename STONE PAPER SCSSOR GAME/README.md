@@ -71,7 +71,7 @@ stone-paper-scissors/
 > Add your project screenshots here
 
 ```
-![Game Screenshot](screenshots/game-preview.png)
+[![Game Screenshot](screenshots/game-preview.png)](https://github.com/tayyab007-dot/Mini-Web-Projects/blob/0b6a7f95011d8021046173a0652978920de007ba/STONE%20PAPER%20SCSSOR%20GAME/screenshots/stone-paper-scissors.png)
 ```
 
 You can create a `screenshots` folder and place your images inside it.
@@ -109,3 +109,4 @@ Core Stack: Laravel, MERN, Full-Stack Web Development
 ## 📄 License
 
 This project is open-source and available for learning and educational purposes.
+
