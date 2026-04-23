@@ -1,6 +1,3 @@
-it directly into your Markdown editor on GitHub.
-
-Markdown
 # 🐕 Random Dog Image Generator
 
 A dynamic web application that fetches and displays random dog images using the Dog CEO API. This project demonstrates practical experience with asynchronous JavaScript, DOM manipulation, and handling external APIs.
@@ -17,7 +14,7 @@ The core functionality is built using an `async` function to fetch data from the
 ### 🖼️ Application Output
 A clean and simple user interface where clicking the "Show" button triggers a fresh image fetch.
 
-![Live Application Output](./screenshots/output.jpg)
+![Live Application Output](./screenshots/output.png)
 
 ---
 
