@@ -8,11 +8,11 @@ An advanced, fully responsive Single Page Application (SPA) built for a **Web De
 
 ### 🖥️ Main Dashboard Overview
 The dashboard features an asynchronous grid engine displaying high-resolution movie posters, clear structural taxonomy badges, and adaptive text alignments across fluid viewports.
-![Main Dashboard Interface](screenshots/main.jpg)
+![Main Dashboard Interface](screenshots/main.png)
 
 ### 🔍 Advanced Data Querying & Filters
 Users can search across thousands of titles with instantaneous debounced request handling alongside strict format category filtering options.
-![Multi-layered Grid Filtering](screenshots/all.jpg)
+![Multi-layered Grid Filtering](screenshots/all.png)
 
 ### 🎭 Deep Information Overlay (Modal View)
 Clicking on any media item invokes an immersive modal dialog that resolves specific individual lookup profiles including official IMDb ratings, plot synopsis, runtime metrics, and creative crew allocations.
