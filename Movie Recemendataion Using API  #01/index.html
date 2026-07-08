@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ Advanced Movie Finder</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>🎬 Movie Hub</h1>
+        </header>
+
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Type a title (e.g., Marvel, Batman)...">
+            <select id="type-filter">
+                <option value="">All Formats</option>
+                <option value="movie">Movies Only</option>
+                <option value="series">TV Series Only</option>
+            </select>
+        </div>
+
+        <div id="movie-grid" class="grid"></div>
+    </div>
+
+    <!-- Modal Details Structure -->
+    <div id="details-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Content will be written dynamically using Javascript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
