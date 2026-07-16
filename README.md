@@ -8,16 +8,21 @@ Explore the folders above to see the source code, or check out the project direc
 
 ## 📂 Project Directory
 
-Below is a breakdown of the 7-8 small projects housed in this repository:
+Below is a breakdown of all the mini-apps housed in this repository. Click on any project name to jump straight to its code folder!
 
 | Project Name | Tech Stack | Description |
 | :--- | :--- | :--- |
-| **🎵 DSA Music Player** | HTML, CSS, JavaScript | A functional music player built while learning and implementing Data Structures and Algorithms logic. |
-| **🎓 University Name Generator** | HTML, CSS, JS, Fetch API | Connects to a public API to fetch and display university names dynamically based on user inputs. |
-| **🛒 Amazon Clone (Front-End)** | HTML, CSS | A detailed visual replica of the Amazon homepage layout to practice responsive design. |
-| **🎬 Movie Finder** | HTML, CSS, JavaScript | A simple, lightweight web app that displays movie titles and basic information using DOM manipulation. |
+| **🐶 [API Dogs Random Images](./API%20Dogs%20Random%20I...)** | HTML, CSS, JS, API | Fetches and displays random, cute dog pictures using a public dog API. |
+| **🛒 [Amazon Clone](./Amazon%20Clone)** | HTML, CSS | A detailed visual replica of the Amazon homepage layout to practice responsive design. |
+| **🎓 [College Names](./COLLEGE%20NAMES)** | HTML, CSS, JS | Dynamically displays or generates college/university names using web scripting. |
+| **🎨 [Colors Generator](./Colors%20Generator)** | HTML, CSS, JS | An interactive tool that generates random color palettes or hex codes on the fly. |
+| **💵 [Currency Converter](./Currency%20Converter)** | HTML, CSS, JS, API | Real-time currency conversion tool utilizing an external exchange rate API. |
+| **🎬 [Movie Recommendation](./Movie%20Recemendat...)** | HTML, CSS, JS | A sleek client-side interface showing and suggesting movie titles. |
+| **✊ [Stone Paper Scissors](./STONE%20PAPER%20SCS...)** | HTML, CSS, JS | The classic Rock, Paper, Scissors game built with interactive UI and game logic. |
+| **🎵 [Song Player](./Song%20Player)** | HTML, CSS, JS | A fully functional, custom-styled music player to control audio playback. |
+| **❌ [Tic Tac Toe](./Tic%20Tac%20Toe)** | HTML, CSS, JS | A clean, interactive 2-player Tic-Tac-Toe web game practicing DOM manipulation. |
 
-> 💡 **Note to Reviewers:** More mini-apps (like CSS layouts, simple games, and API utilities) are tucked away in the folders above. Check back often as I continue adding more!
+> 💡 **Note to Reviewers:** All projects are fully client-side (built with HTML, CSS, and vanilla JavaScript) and can be run instantly in any browser.
 
 ---
 
@@ -27,10 +32,13 @@ Below is a breakdown of the 7-8 small projects housed in this repository:
 * **CSS3:** Custom styling, layouts (Flexbox/Grid), and responsive design.
 * **JavaScript (ES6+):** Asynchronous API fetching, event handling, and DOM manipulation.
 
+---
+
 ## 🏃 How to Run These Projects Locally
 
-Since these are pure client-side projects, you don't need to install any heavy dependencies. 
+Since these are pure client-side projects, you don't need to install any heavy back-end dependencies. 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/tayyab007-dev/Mini-Web-Projects.git]
+   git clone [https://github.com/tayyab007-dot/Mini-Web-Projects.git](https://github.com/tayyab007-dot/Mini-Web-Projects.git)
+   
